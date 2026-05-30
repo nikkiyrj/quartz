@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "Notes"
+  pageTitle: Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -262,7 +262,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: adrenaline
+      theme: minimal
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
