@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-05-30
-modified: 2026-05-31T03:38:08.348+08:00
+modified: 2026-05-31T03:41:45.424+08:00
 ---
 
 # Main Idea
