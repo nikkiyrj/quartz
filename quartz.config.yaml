@@ -270,7 +270,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: its-theme.nord
+      theme: its-theme.notion
 layout:
   groups:
     toolbar:
