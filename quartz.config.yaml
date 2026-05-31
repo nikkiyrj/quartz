@@ -147,7 +147,7 @@ plugins:
     enabled: true
     options: {}
   - source: github:quartz-community/folder-page
-    enabled: true
+    enabled: false
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
@@ -189,7 +189,7 @@ plugins:
       position: beforeBody
       priority: 30
   - source: github:quartz-community/page-title
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 10
