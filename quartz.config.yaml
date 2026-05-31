@@ -145,12 +145,13 @@ plugins:
     enabled: true
   - source: github:quartz-community/content-page
     enabled: true
+    options: {}
   - source: github:quartz-community/folder-page
     enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -173,7 +174,7 @@ plugins:
       position: right
       priority: 50
   - source: github:quartz-community/article-title
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 10
@@ -239,7 +240,7 @@ plugins:
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
-    enabled: true
+    enabled: false
     options:
       includeAll: false
       includedProperties:
@@ -256,7 +257,7 @@ plugins:
       priority: 15
       display: all
   - source: github:quartz-community/obsidian-plugin-excalidraw
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
