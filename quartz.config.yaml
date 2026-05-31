@@ -91,7 +91,7 @@ plugins:
     enabled: true
     order: 70
   - source: github:quartz-community/latex
-    enabled: true
+    enabled: false
     options:
       renderEngine: katex
     order: 80
@@ -270,7 +270,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: its-theme.notion
+      theme: its-theme.nord
 layout:
   groups:
     toolbar:
